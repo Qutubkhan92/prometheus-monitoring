@@ -147,7 +147,7 @@ server:
 
   ## If set it will override prometheus.server.fullname value for ClusterRole and ClusterRoleBinding
   ##
-  clusterRoleNameOverride: ""
+  clusterRoleNameOverride: "prometheus-monitoring"
 
   # Enable only the release namespace for monitoring. By default all namespaces are monitored.
   # If releaseNamespace and namespaces are both set a merged list will be monitored.
